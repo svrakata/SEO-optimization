@@ -7,11 +7,9 @@ Some general information over the SEO process and the way the user interacts wit
  * 60/40 mobile/desktop ratio CTR(click through rates)
  * Organic clicks are major part of user action (Organic clicks are clicks on regular google search results that appear right after the sponsored results or imidiately if you have add block xD)
 
----
-
 ## `Table of Content:`
-1. [Keywords, meta tags and keywords](1#-keywords-meta-tag-and-actual-keywords-in-google-analytics)
-2. [Overall Structure & HTML Structure](2#-overall-structure-&-html-structure)
+1. [Keywords, meta tags and keywords](#1-keywords-meta-tag-and-actual-keywords-in-google-analytics)
+2. [Overall Structure & HTML Structure](#2-overall-structure-&-html-structure)
 3. [Sitemaps]
 4. [Structured markup]
 5. [Profiling and suggestions for optimising BioSeek]
