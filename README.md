@@ -8,12 +8,12 @@ Some general information over the SEO process and the way the user interacts wit
  * Organic clicks are major part of user action (Organic clicks are clicks on regular google search results that appear right after the sponsored results or imidiately if you have add block xD)
 
 ## `Table of Content:`
-1. [Keywords, meta tags and keywords](#1-keywords,-meta-tag-and-actual-keywords-in-google-analytics)
+1. [Keywords, meta tags and keywords](#1-keywords,-meta-tags-and-keywords)
 2. [Overall Structure & HTML Structure](#2-overall-structure-&-html-structure)
-3. [Sitemaps]
-4. [Structured markup]
-5. [Profiling and suggestions for optimising BioSeek]
-6. [Tools]
+3. [Sitemaps](#3-sitemaps)
+4. [Structured markup](#4-structured-markup)
+5. [Suggestions for optimizing BioSeek](#5-suggestions-for-optimizing-bioseek)
+6. [Tools](#6-tools)
 
 ## `Terms`
 * SERP: search engine result page
@@ -48,8 +48,9 @@ Keyword appearing in the text and the number of times it reappears affects index
 ### AdWords Keywords:
 * There is paid service for trargeting specific keywords. That doesn't mean that your ranking will improve significantly. 
 
+# `2. Overall Structure & HTML Structure`
 
-## URL structure
+## 2.1 URL structure
 * Urls should contain only words
 * These words should be descriptive, related to the content, easy to comprehend and a FEW (ass less as posible)
 * Avoid using too many subdirectories
@@ -66,25 +67,25 @@ https://www.ncbi.nlm.nih.gov/gene/?term=nfkb1
 ```
 
 
-## Images
+## 2.2 Images
 * Images should be with descriptive, content related name of the file, same with the alt attribute, should have caption text(this will be hard for science diagrams and drawings)
 * Should be hosted on the same domain !!! NCBI pictures should be uploaded to the bioseek servers
 * Images should be in different format than .jpg --> !!!! what formats?? how to convert them???
 
-## Headings
+## 2.3 Headings
 * One H1 per page.
 * H1 tags are a “second title tag”. Along with your title tag, Google uses your H1 tag as a secondary relevancy signal
 
-## Links
+## 2.4 Links
 * Anchor tags names should match the destination of the link.
-## Response codes
+## 2.5 Response codes
 * Response codes should be ONLY 200, 301, 404
 
-## Not Found Page
+## 2.6 Not Found Page
 * Should be consistent with the website design and provides easy way to return back or navigate to another part of the website
 * Bio seek not found page can include the header and the search bar similar to github notfound page
 
-## Feature snippets:
+## 2.7 ???Feature snippets:
 * Featured snippets are special boxes where the format of regular listings is reversed, showing the descriptive snippet first.
 * How can I mark my page as a featured snippet?
 You can't. Google systems determine whether a page would make a good featured snippet for a user's search request, and if so, elevates it.
@@ -95,7 +96,9 @@ You can't. Google systems determine whether a page would make a good featured sn
 * Tools: [Snippet Optimizer](https://seomofo.com/snippet-optimizer.html)
 * More info: [Google](https://support.google.com/websearch/answer/9351707), [Google](https://support.google.com/webmasters/answer/35624), [SEO Mofo](https://seomofo.com/general/featured-snippet-guide-google/)
 
-## `Structured Markup`
+
+# `3. Sitemaps`
+# `4. Structured Markup`
 
 * [Schema](schema.org), [DCMI](https://www.dublincore.org/)
 * The schemas are a set of 'types', each associated with a set of properties. The types are arranged in a hierarchy.
@@ -236,7 +239,7 @@ Example of an article scheme in livescience.com:
     "@context": "http://schema.org"
 }
 ```
-## `Profiling and suggestions for optimising BioSeek`
+# `5. Suggestions for optimizing BioSeek`
 
 ### Main goals, purposes of the website:
 * Who are we targeting? Who should use and reach out for the website?
@@ -257,17 +260,25 @@ These questions should help with defining good keywords.
         Consider adding key words for the home page title aswell for the other pages
         ```
     * The authors pages have no meaningful titles
-* Find a way to generate meaningful keywords. Should be separated by commas. If possible different than the headline.
-    * The author pages ---> fix the titles and the description meta tag 
-    * Suggestion for author description is number of publications, citations, university field of research etc.
-    * the title and the description snippet should differentiate
+
+* Description:
+    * Authors and marketplace pages have the same descriptions taken from the home page.
+
+* Keywords meta tag:
+    * Find a way to generate meaningful keywords. Should be separated by commas. If possible different than the headline.
+    * Authors and marketplace pages have abstract, and list of products for keywords. Fix the format and the number of keywords.
+
+Suggestion for author title is the name of the author, maybe field of research.
+Suggestion for author description is number of publications, citations, university, field of research etc.
+Suggestion for marketplace titles
+Suggestion for marketplace descriptions
+
 * Canonical link element:
     ```html
     <link rel="canonical" href="https://example.com/dresses/green-dresses" />   
     ```
 
 * URLs
-
     * BioSeek:
         ```
         https://www.bioseek.eu/us/eng/research/search?q=nfkb1
@@ -293,7 +304,7 @@ differences like sorting or filtering does not make those pages unique
 * JSON-LD - JSON-like description of the semantics
 
 
-## `Tools`
+# `6. Tools`
 * https://search.google.com/structured-data/testing-tool/u/0/ move this
 * [Google Search Console](https://search.google.com/search-console/about)
 * [Snippet Optimizer](https://seomofo.com/snippet-optimizer.html)
