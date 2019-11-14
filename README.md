@@ -1,4 +1,4 @@
-# Research for SEO optimization - bioseek.eu
+# Research for SEO optimization - [bioseek.eu](https://www.bioseek.eu/us/eng/research/home)
 Brieff description or some grphics
 
 
@@ -10,7 +10,7 @@ Some general information over the SEO process and the way the user interacts wit
 ---
 
 ## `Table of Content:`
-1. [Keywords, LSI Keywords, Meta tags](1#-keywords-meta-tag-and-actual-keywords-in-google-analytics)
+1. [Keywords, meta tags and keywords](1#-keywords-meta-tag-and-actual-keywords-in-google-analytics)
 2. [Overall Structure & HTML Structure](2#-overall-structure-&-html-structure)
 3. [Sitemaps]
 4. [Structured markup]
@@ -20,7 +20,7 @@ Some general information over the SEO process and the way the user interacts wit
 ## `Terms`
 * SERP: search engine result page
 
-# `1. Keywords - meta tag and actual keywords in Google Analytics`
+# `1. Keywords, meta tags and keywords`
 
 Aim for words that might hit people needs: "diseases", "genes", "drugs", "pathways". "Search", "free", "efficient" are too vague and can mean anything.
 Keywords that match the domain name and content at the same time: "biotech", "biological". It's good if keyword appears in the subdomain or in the extension/suffix of the domain name.
