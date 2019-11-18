@@ -1,0 +1,30 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "@id": "/#bioseek_web_site",
+    "url": "https://www.bioseek.eu/",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.bioseek.eu/us/eng/research/search/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+    },
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "@id": "/#bioseek",
+        "url": "https://www.bioseek.eu/",
+        "logo": "https://dy3xjh9gbx10h.cloudfront.net/bioseek/bioseek_logo_og.jpg",
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "telephone": "(+359 (884) 288-336)",
+                "contactType": "Customer Service"
+            }
+        ],
+        "sameAs": [
+            "https://www.facebook.com/bioseek/",
+            "https://semantica.ai"
+        ],
+        "name": "Bioseek"
+    }
+}
